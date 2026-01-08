@@ -1,0 +1,52 @@
+/* Shared or Universal styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+/* Single styles */
+
+/* Navigation section styling starts */
+nav{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px 0;
+}
+
+nav .logo:hover{
+    cursor: pointer;
+}
+.navigations ul{
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    gap: 32px;
+}
+.navigations ul a{
+    text-decoration: none;
+    color: #000;
+
+}
+.navigations ul a:hover {
+    color: #30B868;
+}
+.earlyButton button{
+    padding: 12px 16px 12px 12px;
+    color: #fff;
+    background: #30B868;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+.earlyButton button:hover{
+    cursor: pointer;
+    color: #000;
+}
+/* Navigation styling ends */
