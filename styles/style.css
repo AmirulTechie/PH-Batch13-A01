@@ -189,3 +189,35 @@ nav .logo:hover{
     padding: 14px;
     margin-bottom: 16px;
 }
+/* SecondBrain Section styling starts */
+#secondBrain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 120px;
+}
+#secondBrain .secondBrainInfos{
+    width: 530px;
+}
+.secondBrainInfos h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.secondBrainInfos h1{
+    font-size: 48px;
+    margin-bottom: 16px
+}
+.secondBrainInfos .brainTexts{
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.secondBrainInfos .tickParas .ticks{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
